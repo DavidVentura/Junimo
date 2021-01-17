@@ -1,0 +1,20 @@
+{
+  "name": "junimo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --inline-diffs -r ts-node/register src/test/test.ts",
+    "start": "tsc --build tsconfig.json && node build/src/parser.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "@types/node": "^14.14.21",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.1.1"
+  }
+}
