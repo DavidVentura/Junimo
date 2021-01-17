@@ -8,7 +8,10 @@
 		"sourceMap": false,
 		"moduleResolution": "Node",
 		"resolveJsonModule": true,
-		"esModuleInterop": true
+		"esModuleInterop": true,
+		"incremental": true,
+		"downlevelIteration": true,
+		"lib": ["ES2019"]
 	},
 	"include": ["src/**/*", "data/*.json"],
 	"exclude": ["node_modules", "**/*.spec.ts"]
